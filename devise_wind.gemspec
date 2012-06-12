@@ -1,6 +1,7 @@
 # -*- encoding: utf-8 -*-
 $:.push File.expand_path("../lib", __FILE__)
 require "devise_wind/version"
+require 'devise-encryptable'
 
 Gem::Specification.new do |s|
   s.name        = "devise_wind"
